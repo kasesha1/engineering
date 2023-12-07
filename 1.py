@@ -5,8 +5,7 @@ def y():
     return lambda: math.cos(5)*math.cos(5)
 def func(x, y):
     print("Otvet:", x() + y())
-z = int(input("введите переменную z:"))
-func(x(z), y())
+func(x(6), y())
 
 
 
